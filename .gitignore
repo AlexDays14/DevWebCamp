@@ -2,3 +2,4 @@ node_modules
 package.json
 composer.json
 includes/.env
+.DS_Store
