@@ -1,0 +1,20 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.pagina-404{
+    @include m.contenedor;
+
+    &__error{
+        @include m.texto-degradado(v.$azul, v.$secundario);
+        @include m.texto-fluido(6rem, 20rem);
+    }
+    &__contenedor{
+        text-align: center;
+    }
+
+    &__enlace{
+        color: v.$azul;
+        font-size: 2.2rem;
+        font-weight: v.$bold;
+    }
+}

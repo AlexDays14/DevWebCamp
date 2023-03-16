@@ -1,0 +1,23 @@
+@use 'base/mixins' as m;
+
+.mapa{
+    @include m.contenedor;
+    height: 45rem;
+    margin-top: 5rem;
+    z-index: -1;
+
+    @include m.desktop{
+        width: unset;
+    }
+
+    &__heading{
+        margin: 0;
+        text-align: left;
+        font-size: 3rem;
+    }
+
+    &__descripcion{
+        font-size: 1.8rem;
+        margin: 0;
+    }
+}
