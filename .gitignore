@@ -1,5 +1,4 @@
-/package-lock.json
-/package.json
-/composer.json
-/composer.lock
-/includes/.env
+node_modules
+package.json
+composer.json
+includes/.env
